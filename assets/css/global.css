@@ -1,0 +1,40 @@
+:root{
+  --color-white: #fff;
+  --color-black:#000;
+  --bg-primary: #f0f2f5;
+  --color-primary: #216FDB;
+  --color-red:#f03352;
+  --color-icon:#9da2a7;
+  --text-primary:#050505;
+  --second-icon: #65676B;
+  --height-header: 5.6rem;
+  --height-slider: 29.2rem;
+  --blue-pink: #216FDB;
+  --height-popup-messenger: 50rem;
+  --height-header-messenger: 4.4rem;
+  --height-footer-messenger: 4.4rem;
+  --height-popup-notification: 56.6rem;
+  --height-header-notification: 5rem;
+  --height-header-btn-notification: 3.6rem;
+  --color-btn-text: #1877F2;
+  --divider: #CED0D4;
+  --bg-icon-color: #E4E6EB;
+  --width-sidebar: 36rem;
+  --hover-bg: rgba(0, 0, 0, 0.05)
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.full-height {
+  height: 100%;
+}
+
