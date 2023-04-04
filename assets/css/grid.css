@@ -125,7 +125,7 @@
 
 
 /* large screen destop extreme large xl*/ 
-@media screen and (min-width: 1024px) and (max-width: 1239px) {
+@media screen and (min-width: 64em) and (max-width: 77.4375em) {
   .grid.wide {
     max-width: 984px;
   }
@@ -226,7 +226,7 @@
   }
 }
 /* small screen laptop large l*/
-@media screen and (min-width: 769px) and (max-width: 1023px) {
+@media screen and (min-width: 48.0625em) and (max-width: 63.9375em) {
   .grid.wide {
     max-width: 660px;
   }
@@ -330,7 +330,7 @@
 }
 
 /* Ipad  medium m*/
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 30.0625em) and (max-width: 48em) {
   .grid.wide {
     max-width: 444px;
   }
@@ -431,7 +431,7 @@
 }
 
 /* //Mobile small s*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 30em) {
   .grid.wide {
     max-width: 300px;
   }
