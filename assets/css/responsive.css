@@ -289,147 +289,29 @@
   }
 
   .post__avatar--hover {
-    left: -2rem;
-  }
-  
-  .header__search--input {
-    display: none;
-  }
-
-  #checkbox__search--mobile:checked ~ .header__left .header__left--logo {
-    display: none;
-  }
-
-  #checkbox__search--mobile:checked ~ .header__left .header__search .header__search--icon {
-    display: none;
-  }
-  #checkbox__search--mobile:checked ~ .header__left .header__search {
-    width: 24rem;
-  }
-  #checkbox__search--mobile:checked ~ .overlay__mobile--search {
-    display: block;
-  }
-  
-  #checkbox__search--mobile:checked ~ .header__left .header__search .header__search--input {
-    margin-left: 1rem;
-    height: 4rem;
-    border-radius: 2rem;
-    display: block;
-  }
-
-  #checkbox__search--mobile:checked ~ .header__left .header__left--icon {
-    display: block;
-    transform: translateX(0);
-  }
-  
-  #checkbox__search--mobile:checked ~ .header__left .search__list {
-    display: block;
-  }
-
-  .header__search--icon {
-    font-size: 1.6rem;
-    display: block;
-    width: 100%;
-    text-align: center;
-    padding-left: 0;
-  }
-
-  .isShow__ipad {
-    display: block;
-  }
-
-  .header__center {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 23.438em) and (max-width: 25em){
-  .s-o-3 {
-    margin-left: 0;
-  }
-
-  .header.row {
-    justify-content: space-between;
-    width: 100vw;
-  }
-
-  .modal__wrapper {
-    width: calc(100% - 2rem);
-    height: 40rem;
-  }
-
-  .modal__content--center {
-    margin-top: 2rem;
-  }
-
-  .btn__modal--post {
-    height: 4rem;
-  }
-
-  .header__left {
-    width: 24rem;
-  }
-
-  .label__checkbox--menu.right__item--icon {
-    display: none;
-  }
-
-  .header__search {
-    width: 4rem;
-  }
-
-  .container {
-    justify-content: center;
-  }
-
-  .body {
-    max-width: calc(100% - 2rem);
-  }
-
-  .slider {
-    width: 100%;
-  }
-
-  .slider__content {
-    width: calc(100% - 2rem);
-  }
-
-  .story {
-    width: 100%;
-  }
-
-  .story__footer {
-    justify-content: center;
-  }
-
-  .story__footer--item {
-    flex-basis: 50%;
-    justify-content: center
-  }
-
-  .story__footer--item:last-child {
-    display: none;
-  }
-
-  .left__sidebar, .right__sidebar {
-    display: none;
-  }
-
-  .post__item {
-    width: 100%;
-  }
-
-  .post__group--hover {
-    left: -1.8rem;
-  }
-
-  .post__hover--person {
-    left: -4.8rem;
-    transform: unset;
+    left: -1rem;
   }
 
   .post__avatar--hover {
-    left: -2rem;
+    width: 32rem;
+  }
+
+  .content__actions--item {
+    width: 12rem;
+  }
+
+  .avatar__hover--header--left {
+    height: 8rem;
+    width: 8rem;
+    margin-left: 0;
+  }
+
+  .avatar__hover--footer .hover__footer--accept {
+    width: 10rem;
+  } 
+
+  .avatar__hover--footer .hover__footer--add--friend {
+    width: 13rem;
   }
   
   .header__search--input {
